@@ -1,0 +1,9 @@
+.sidebar1{
+    background-color: #26282c;
+    padding: 10px;
+    color: #97999cec;
+}
+
+.sidebar1 > h5{
+    padding-bottom: 5px;
+}

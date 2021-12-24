@@ -1,0 +1,17 @@
+.voice_channels_list{
+    display: flex;
+    color:#97999cec;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.voice_channels_list:hover{
+    background-color: #4b464b;
+    color: rgba(245, 245, 245, 0.863);
+}
+
+.volume_icon{
+    padding-right: 5px;
+}

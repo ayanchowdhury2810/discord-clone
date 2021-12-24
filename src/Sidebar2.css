@@ -1,0 +1,117 @@
+.sidebar2{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #2f3135;
+}
+
+.chatAndvoice{
+    overflow: scroll;
+    flex: 1;
+}
+
+.chatAndvoice::-webkit-scrollbar{
+    display: none;
+}
+
+.sidebar_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3335;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+
+.sidebar_top > .MuiSvgIcon-root{
+    cursor: pointer;
+}
+
+.sidebar_top > .MuiSvgIcon-root:hover{
+    background-color: rgba(62, 61, 65, 0.979);
+    border-radius: 8px;
+}
+
+.sidebar_channels_header{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    color:#97999cec;
+    justify-content:space-between;
+}
+
+.sidebar_channels_header> .MuiSvgIcon-root{
+    cursor: pointer;
+}
+
+.sidebar_channels_header> .MuiSvgIcon-root:hover{
+    background-color: rgba(62, 61, 65, 0.979);
+    border-radius: 8px;
+}
+
+.sidebar_add_icon{
+    cursor: pointer;
+}
+
+.sidebar_add_icon:hover{
+    color: white;
+}
+
+
+.sidebar_voiceChannel_header{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color:#97999cec;
+}
+
+.sidebar_voiceChannel_header> .MuiSvgIcon-root{
+    cursor: pointer;
+}
+
+.sidebar_voiceChannel_header> .MuiSvgIcon-root:hover{
+    background-color: rgba(62, 61, 65, 0.979);
+    border-radius: 8px;
+}
+
+.sidebar_voicecall{
+    display: flex;
+    align-items: center;
+    background-color: #282a2c8e;
+    padding: 5px;
+}
+
+.user_info{
+    padding-left: 5px
+}
+
+.user_info > h3{
+    color: white;
+}
+
+.user_info > p{
+    color: rgb(167, 165, 165);
+    flex: 1;
+}
+
+.voice_icons{
+    display: flex;
+    color: rgb(167, 165, 165);
+    padding-left: 5px;
+}
+
+.voice_icons> .MuiSvgIcon-root{
+    cursor: pointer;
+}
+
+.voice_icons> .MuiSvgIcon-root:hover{
+    background-color: rgba(62, 61, 65, 0.979);
+    border-radius: 8px;
+}
+
+.voice_icons > .MuiSvgIcon-root{
+    padding: 5px;
+}
